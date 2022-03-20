@@ -8,7 +8,7 @@ import ProductDetail from "./containers/ProductDetail"
 function App() {
   return (
     <div className="App">
-        <Header/>
+        {/* <Header/> */}
       <Router>
         <Switch>
         <Route path="/" exact component={ProductListing} />

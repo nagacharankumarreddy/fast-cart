@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const ProductComponent = () => {
@@ -8,7 +9,8 @@ const ProductComponent = () => {
     const { id, title, category, image, price } = product;
     return (
       <div className="column four wide" key={id}>
-        <div className="ui card">
+        <Link to={`/product/${id}`}>
+        <div className="ui link card">
           <div className="image">
             <img src={image} alt={title} height="200px"/>
           </div>
@@ -18,6 +20,7 @@ const ProductComponent = () => {
             <div className="meta">{category}</div>
           </div>
         </div>
+        </Link>
         
       </div>
         

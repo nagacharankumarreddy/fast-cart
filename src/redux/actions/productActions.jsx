@@ -7,7 +7,7 @@ export const setProducts=(products)=>{
 }
 export const selectedProduct=(product)=>{
     return{
-        type:actionTypes.SELECTED_PRODUCTS,
+        type:actionTypes.SELECTED_PRODUCT,
         payload:product
     }
 }
