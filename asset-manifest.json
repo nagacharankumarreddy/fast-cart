@@ -1,16 +1,16 @@
 {
   "main.css": "/fast-cart/static/css/main.3ca552bb.chunk.css",
-  "main.js": "/fast-cart/static/js/main.55451211.chunk.js",
-  "main.js.map": "/fast-cart/static/js/main.55451211.chunk.js.map",
+  "main.js": "/fast-cart/static/js/main.399bdbbb.chunk.js",
+  "main.js.map": "/fast-cart/static/js/main.399bdbbb.chunk.js.map",
   "static/css/1.c00f84de.chunk.css": "/fast-cart/static/css/1.c00f84de.chunk.css",
   "static/js/1.35e77a39.chunk.js": "/fast-cart/static/js/1.35e77a39.chunk.js",
   "static/js/1.35e77a39.chunk.js.map": "/fast-cart/static/js/1.35e77a39.chunk.js.map",
   "runtime~main.js": "/fast-cart/static/js/runtime~main.f20b783e.js",
   "runtime~main.js.map": "/fast-cart/static/js/runtime~main.f20b783e.js.map",
   "static/media/semantic.min.css": "/fast-cart/static/media/brand-icons.a1a749e8.svg",
-  "static/css/main.3ca552bb.chunk.css.map": "/fast-cart/static/css/main.3ca552bb.chunk.css.map",
   "static/css/1.c00f84de.chunk.css.map": "/fast-cart/static/css/1.c00f84de.chunk.css.map",
+  "static/css/main.3ca552bb.chunk.css.map": "/fast-cart/static/css/main.3ca552bb.chunk.css.map",
   "index.html": "/fast-cart/index.html",
-  "precache-manifest.03de3b931b14c87deefb4b9bccdaec1d.js": "/fast-cart/precache-manifest.03de3b931b14c87deefb4b9bccdaec1d.js",
+  "precache-manifest.b55a75ff93c3025c0449356620386b2a.js": "/fast-cart/precache-manifest.b55a75ff93c3025c0449356620386b2a.js",
   "service-worker.js": "/fast-cart/service-worker.js"
 }
