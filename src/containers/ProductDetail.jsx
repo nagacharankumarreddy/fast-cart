@@ -17,22 +17,24 @@ const ProductDetail = () => {
       .catch((err) => {
         console.log(err);
       });
-      
+
     dispatch(selectedProduct(res.data));
   };
   useEffect(() => {
-   
     if (productId && productId !== "") fetchProductDetail();
-    return ()=>{dispatch(removeSelectedProduct());}
+    return () => {
+      dispatch(removeSelectedProduct());
+    };
   }, [productId]);
   const product = useSelector((state) => state.product);
-  const { id, title, category, image, price, description ,rating} = product;
-  const rate=0;
+  const { id, title, category, image, price, description, rating } = product;
+  const per = 20;
   return (
     <div>
-      {
-      Object.keys(product).length === 0 ? (
-        <h1>Loading...</h1>
+      {Object.keys(product).length === 0 ? (
+        <div className="spinner-border spinner-border-sm text-info" style={{width: "5rem", height: "5rem"}}>
+        </div>
+  
       ) : (
         <div className="container">
           <div className="row">
@@ -55,12 +57,8 @@ const ProductDetail = () => {
                 <div
                   className="progress-bar progress-bar-info"
                   role="progressbar"
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                  style={{width:"50%"}}
-                >
-                </div>
+                  style={{ width: `${rating.rate*20}%` }}
+                ></div>
               </div>
             </div>
           </div>
